@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Form</title>
+  </head>
+  <body>
+    <h1 align="center">
+      <fieldset style="background-color: rgb(255, 98, 0)">
+        PAYMENT FORM
+      </fieldset>
+    </h1>
+    <form>
+      <h2>Personal Information:-</h2>
+      <label for="firstname">First Name:*</label>
+      <div>
+        <input type="text" name="myname" id="firstname" required/>
+      </div>
+      <br />
+      <div>
+        <label for="lastname">Last Name:*</label>
+      </div>
+      <input type="text" name="myname" id="lastname"required />
+      <br /><br />
+      <label for="email">Email:*</label>
+      <div>
+        <input type="text" name="email" id="email"required />
+      </div>
+      <br />
+      <label for="password">Password:*</label>
+      <div>
+        <input type="password" name="password" id="password"required />
+      </div>
+      <br />
+      <label for="Number">Mob No-:*</label>
+      <div>
+        <input type="number" name="Number" id="Number" required/>
+      </div>
+      <br />
+      <div>
+        Gender:* <input type="radio" name="mygender" id="mygender" />Male<input
+          type="radio"
+          name="mygender"
+          id="mygender"
+        />Female<input type="radio" name="mygender" id="mygender" required/>Other
+      </div>
+      <br />
+
+      <label for="date">Date of Birth:*</label>
+      <div>
+        <input type="date" name="date" id="date" required/>
+      </div>
+      <br />
+      <label for="Identity">Identity Proof*:</label>
+      <select>
+        <option value="None">None</option>
+        <option value="Addhar">Addhar</option>
+        <option value="Lincence">Driving Lincence</option>
+        <option value="Pan">PAN Card</option>
+        <option value="Voter">Voter Card</option>
+      </select>
+      <br><br>
+      <label for="address">Address:</label><br />
+      <div>
+        <textarea value="address" cols="100" rows="3"></textarea>
+      </div>
+      <br />
+      <label for="pincode">Pincode:*</label>
+      <div>
+        <input type="number" name="pincode" id="pincode" required/>
+      </div>
+      <br />
+      <label for="State">State:*</label>
+      <select>
+        <option value="None">None</option>
+        <option value="Madhya Pradesh">Madhya Pradesh</option>
+        <option value="Uttar Pradesh">Uttar Pradesh</option>
+        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+        <option value="Andra Pradesh">Andra Pradesh</option>
+        <option value="Rajasthan">Rajasthan</option>
+        <option value="Gujrat">Gujrat</option>
+        <option value="Bihar">Bihar</option>
+        <option value="Assam">Assam</option>
+        <option value="Uttrakhand">Uttrakhand</option>
+      </select>
+      <br /><br />
+      <label for="District">State:*</label>
+      <select>
+        <option value="None">None</option>
+        <option value="Gwalior">Gwalior</option>
+        <option value="Bhopal">Bhopal</option>
+        <option value="Indore">Indore</option>
+        <option value="Jaipur">Jaipur</option>
+        <option value="Durg">Durg</option>
+        <option value="Sikar">Sikar</option>
+        <option value="Ahemadbad">Ahemadbad</option>
+        <option value="Shilong">Shilong</option>
+        <option value="Sagar">Sagar</option>
+      </select>
+      <br /><br />
+      <hr />
+      <br />
+      <label for="name">Card holder Name:*</label>
+      <input type="text" name="name" id="name" required />
+      <br /><br />
+      <label for="Card">Card Type:*</label>
+      <select>
+        <option value="None">--Select a card type--</option>
+        <option value="VISA">VISA</option>
+        <option value="RUPAY">RUPAY</option>
+        <option value="PAYTM">PAYTM</option>
+        <option value="UPI">UPI</option>
+        <option value="CREDIT CARD">CREDIT CARD</option>
+      </select>
+      <br /><br />
+      <label for="number">Card Number:*</label>
+      <input type="number" name="card number" id="number"required />
+      <br /><br />
+      <label for="date">Expiry Date:*</label>
+      <input type="date" name="date" id="date" required/>
+      <br /><br />
+      <label for="CVV">CVV:*</label>
+      <input type="password" name="CVV" id="CVV" required/>
+      <br /><br />
+      <button value="Submit">Pay Now</button>
+      <button value="Reset">Reset</button>
+    </form>
+  </body>
+</html>
